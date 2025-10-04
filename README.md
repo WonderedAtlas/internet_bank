@@ -48,6 +48,22 @@ http://localhost:8080/api/putMoney/{user_id}?amount={amount}
 {user_id} — идентификатор пользователя.
 {amount} — сумма, которую нужно положить на счёт.
 
+4. operations
+
+Описание:
+Отправка GET-запроса для получения списка операций за выбранный диапазон времени.
+Функция принимает ID пользователя и 2 даты и возвращает список операций за выбранный диапазон времени.
+Если одно или оба значения диапазона дат являются пустыми, функция будет выдавать все операции без фильтрации по дате.
+
+URL:
+http://localhost:8080/api/operations/{user_id}?startDate={startDate}&endDate={startDate}
+
+где:
+{user_id} — идентификатор пользователя.
+{startDate} — начальная дата (формат yyyy-MM-dd HH:mm:ss)
+{endDate} — конечная дата (формат yyyy-MM-dd HH:mm:ss)
+   
+
 ![DBeaver_Screen](https://github.com/user-attachments/assets/4bdee852-5c7a-4629-a0c1-d214862f5595)
 
 
