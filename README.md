@@ -65,6 +65,13 @@ http://localhost:8080/api/operations/{user_id}?startDate={startDate}&endDate={st
    
 
 ![DBeaver_Screen](https://github.com/user-attachments/assets/4bdee852-5c7a-4629-a0c1-d214862f5595)
+![operatios_data](https://github.com/user-attachments/assets/dc4f9d5c-af30-4903-bc98-86b459befbb4)
+![operatios_data_2](https://github.com/user-attachments/assets/1709e204-e933-4ecd-8950-929640060cb5)
+
+
+
+
+
 
 
 
