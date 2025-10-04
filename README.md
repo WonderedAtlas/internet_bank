@@ -48,7 +48,7 @@ http://localhost:8080/api/putMoney/{user_id}?amount={amount}
 {user_id} — идентификатор пользователя.
 {amount} — сумма, которую нужно положить на счёт.
 
-4. operations
+4. getOperationList
 
 Описание:
 Отправка GET-запроса для получения списка операций за выбранный диапазон времени.
