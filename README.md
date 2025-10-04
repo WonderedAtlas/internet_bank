@@ -58,7 +58,7 @@ http://localhost:8080/api/putMoney/{user_id}?amount={amount}
 Если одно или оба значения диапазона дат являются пустыми, функция будет выдавать все операции без фильтрации по дате.
 
 URL:
-http://localhost:8080/api/operations/{user_id}?startDate={startDate}&endDate={startDate}
+http://localhost:8080/api/getOperationList/{user_id}?startDate={startDate}&endDate={startDate}
 
 где:
 {user_id} — идентификатор пользователя.
