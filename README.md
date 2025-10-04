@@ -48,6 +48,8 @@ http://localhost:8080/api/putMoney/{user_id}?amount={amount}
 {user_id} — идентификатор пользователя.
 {amount} — сумма, которую нужно положить на счёт.
 
+! При каждом вызове takeMoney и putMoney в таблицу со списком операций добавляется новое значение.
+
 4. getOperationList
 
 Описание:
