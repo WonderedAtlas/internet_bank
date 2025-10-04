@@ -26,7 +26,7 @@ public class UserController {
         return userService.getBalance(userId);
     }
 
-    @GetMapping("/operations/{userId}")
+    @GetMapping("/getOperationList/{userId}")
     public ResponseEntity<List<OperationListDto>> getOperations(
             @PathVariable Long userId,
             @RequestParam(required = false) @DateTimeFormat(iso = DateTimeFormat.ISO.DATE_TIME) LocalDateTime startDate,
