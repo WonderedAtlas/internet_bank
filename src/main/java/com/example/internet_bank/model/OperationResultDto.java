@@ -1,12 +1,12 @@
-package com.example.internet_bank;
+package com.example.internet_bank.model;
 
 
 
-public class OperationResult {
+public class OperationResultDto {
     private double value;
     private String reason;
 
-    public OperationResult(double value, String reason) {
+    public OperationResultDto(double value, String reason) {
         this.value = value;
         this.reason = reason;
     }
@@ -15,7 +15,7 @@ public class OperationResult {
         return value;
     }
 
-    public OperationResult setValue(double value) {
+    public OperationResultDto setValue(double value) {
         this.value = value;
         return this;
     }
@@ -24,7 +24,7 @@ public class OperationResult {
         return reason;
     }
 
-    public OperationResult setReason(String reason) {
+    public OperationResultDto setReason(String reason) {
         this.reason = reason;
         return this;
     }
